@@ -20,7 +20,7 @@ def run_ec2():
     print(response)
 
     return ec2_console
-# run_ec2()
+
 
 
 def stopInstacnes(ec2_console):
@@ -31,7 +31,7 @@ def stopInstacnes(ec2_console):
     print("EC2 instance stopped:")
     print(response)
 
-# stopInstacnes()
+
 
 
 def start_instances(ec2_console):
